@@ -1,0 +1,28 @@
+.add-todo-form {
+  margin-top: 1.5rem;
+}
+.form {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.form input {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  font-size: 1.5rem;
+  outline: none;
+}
+.form button {
+  position: absolute;
+  right: 0;
+  height: 38px;
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  background: indigo;
+  color: #fff;
+  font-weight: 600;
+}

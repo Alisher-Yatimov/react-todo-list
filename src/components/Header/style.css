@@ -1,0 +1,17 @@
+.header{
+  height: 100px;
+  background: indigo;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 80px;
+  margin-top: 10px;
+}
+.logo span {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+}

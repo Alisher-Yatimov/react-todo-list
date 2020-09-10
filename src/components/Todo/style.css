@@ -1,0 +1,37 @@
+.todo-element{
+  list-style-type: none;
+  background: #fff;
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 0 5px #000;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+.todo-element p{
+  margin-left: 5px;
+}
+.btn{
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+.rm{
+  background-color: red;
+}
+.imp{
+  background-color: yellow;
+}
+.ed{
+  background-color: darkblue;
+  width: 60px;
+  text-transform: capitalize;
+}
